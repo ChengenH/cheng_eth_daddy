@@ -1,5 +1,8 @@
 # ETH Daddy 
 
+## HOMEPAGE
+https://eth-daddy.moncici.xyz/
+
 ## Technology Stack & Tools
 
 - Solidity (Writing Smart Contracts & Tests)
