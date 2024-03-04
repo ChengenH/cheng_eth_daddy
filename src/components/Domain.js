@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { ethers } from 'ethers'
+import { notify } from 'feishu-notifier';
 
 const Domain = ({ domain, ethDaddy, provider, id }) => {
   const [owner, setOwner] = useState(null)
@@ -18,6 +19,7 @@ const Domain = ({ domain, ethDaddy, provider, id }) => {
     await transaction.wait()
 
     setHasSold(true)
+    notify('BUY', 'BUY a new NFT')
   }
 
   useEffect(() => {
