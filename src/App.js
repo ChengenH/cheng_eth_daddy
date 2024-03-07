@@ -12,6 +12,7 @@ import ETHDaddy from './abis/ETHDaddy.json'
 // Config
 import config from './config.json';
 import { formatTimestamp } from '@moncici/date-time-processor';
+import { log } from '@moncici/log';
 
 function App() {
   const [provider, setProvider] = useState(null)
@@ -25,13 +26,13 @@ function App() {
     setProvider(provider)
 
     const network = await provider.getNetwork()
-    console.log(network)
+    log(network)
 
 
     const ethDaddy = new ethers.Contract(config[network.chainId].ETHDaddy.address, ETHDaddy, provider)
     setETHDaddy(ethDaddy)
 
-    console.log(formatTimestamp(new Date), ethDaddy)
+    log(formatTimestamp(new Date), ethDaddy)
 
         // List 6 domains
         // const tokens = (n) => {

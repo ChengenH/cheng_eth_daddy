@@ -1972,10 +1972,17 @@
     tweetnacl "^1.0.3"
     tweetnacl-util "^0.15.1"
 
-"@moncici/date-time-processor@^1.0.2":
+"@moncici/date-time-processor@^1.0.2", "@moncici/date-time-processor@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/@moncici/date-time-processor/-/date-time-processor-1.0.3.tgz"
+  integrity sha512-iKmfgdEmxMbCypCxKxPwwGC40N63hpD09iwIX0SLAkOsvJOWthT5BS6VHuUdQjND6dfdGYHdgLDeQOZaZb+dAw==
+
+"@moncici/log@^1.0.2":
   version "1.0.2"
-  resolved "https://registry.npmjs.org/@moncici/date-time-processor/-/date-time-processor-1.0.2.tgz"
-  integrity sha512-xO2wOIut8KxTaxx+ax//UnJw+HH0/Y2lLSMuQ99OpAemcgCxV9RCKqjsjmCkYv0pZPc2NrJKxrUMMM7zQ/68cA==
+  resolved "https://registry.npmjs.org/@moncici/log/-/log-1.0.2.tgz"
+  integrity sha512-8ozj5rSe85IRxZ2OCUWHY5GhQcvOGfx5gvmm2D0fmJnAdDJm55xJPUP9X3OTzgF951af3GIftMFaRywnnIf0OQ==
+  dependencies:
+    "@moncici/date-time-processor" "^1.0.3"
 
 "@nicolo-ribaudo/chokidar-2@2.1.8-no-fsevents.3":
   version "2.1.8-no-fsevents.3"

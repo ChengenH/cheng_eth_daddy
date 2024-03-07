@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@moncici/date-time-processor": "^1.0.2",
+    "@moncici/log": "^1.0.2",
     "@openzeppelin/contracts": "^4.8.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
