@@ -1,14 +1,14 @@
 {
-  "name": "@moncici/eth_daddy",
+  "name": "@chengenh/cheng_eth_daddy",
   "version": "0.1.1",
-  "author": "moncici007",
+  "author": "ChengenH",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/moncici007/eth_daddy"
+    "url": "https://github.com/ChengenH/cheng_eth_daddy"
   },
-  "website": "https://github.com/moncici007/eth_daddy.git",
-  "homepage": "https://github.com/moncici007/eth_daddy#readme",
+  "website": "https://github.com/ChengenH/cheng_eth_daddy.git",
+  "homepage": "https://github.com/ChengenH/cheng_eth_daddy#readme",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
